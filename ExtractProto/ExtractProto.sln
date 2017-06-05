@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractProto", "ExtractProto.csproj", "{AB77FBB3-1929-4CE6-90A7-D6DD93C0B26C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB77FBB3-1929-4CE6-90A7-D6DD93C0B26C}.Debug|x86.ActiveCfg = Debug|x86
+		{AB77FBB3-1929-4CE6-90A7-D6DD93C0B26C}.Debug|x86.Build.0 = Debug|x86
+		{AB77FBB3-1929-4CE6-90A7-D6DD93C0B26C}.Release|x86.ActiveCfg = Release|x86
+		{AB77FBB3-1929-4CE6-90A7-D6DD93C0B26C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
