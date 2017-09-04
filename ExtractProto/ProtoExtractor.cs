@@ -71,7 +71,7 @@ namespace ExtractProto
 				}
 			}
 
-			all = "package " + package + ";\n\n";
+			all = "syntax = \"proto2\";\n\npackage " + package + ";\n\n";
 			foreach (var s in set)
 			{
 				foreach (var line in s.Split('\n'))

@@ -2,9 +2,9 @@
 
 while [[ $# -gt 1 ]]
 do
-key="$1"
+KEY="$1"
 
-case $key in
+case ${KEY} in
     -a)
     ASSEMBLY="$2"
     shift
@@ -26,5 +26,5 @@ done
 docker build -q -t squishly/extract-protobuf-net . > /dev/null 2>&1
 docker run \
   --interactive --tty --rm \
-  --volume $ASSEMBLY:/asm \
-  squishly/extract-protobuf-net "-a /asm -p $PACKAGE -t $TYPES"
+  --volume ${ASSEMBLY}:/asm \
+  squishly/extract-protobuf-net "-a /asm -p ${PACKAGE} -t ${TYPES}"
